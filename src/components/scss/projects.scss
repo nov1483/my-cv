@@ -1,0 +1,122 @@
+.projects_container {
+    padding: 50px 0;
+    h2{
+        margin-bottom: 30px;
+    }
+}
+
+.show_projects {
+    margin-bottom: 40px;
+
+    .project_game {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .project_game_info{
+            display: flex;
+            align-items: center;
+            background: linear-gradient(0deg, rgba(58, 57, 57, 0.911) 0%, rgba(36, 23, 23, 0.945) 100%);
+            margin-bottom: 20px;
+            border-radius: 15px;
+            padding-right: 20px;
+        }
+
+        .project_game_info:hover > .project_game_text .made_ico .ico_react {
+            color: rgb(23, 231, 231);
+            transform: scale(1.20);
+        }
+        .project_game_info:hover > .project_game_text .made_ico .ico_css {
+            color: rgb(23, 137, 231);
+            transform: scale(1.20);
+        }
+        .project_game_info:hover > .project_game_text .made_ico .ico_html {
+            color: rgb(231, 99, 23);
+            transform: scale(1.20);
+        }
+        .project_game_info:hover > .project_game_text .made_ico .ico_bootstrap {
+            color: rgb(95, 55, 187);
+            transform: scale(1.20);
+        }
+        .project_game_info:hover > .project_game_text .made_ico .ico_firebase {
+            color: rgb(231, 183, 23);
+            transform: scale(1.20);
+        }
+
+        .project_game_info:hover > .project_game_text .made_ico i p {
+            opacity: 1;
+            color: #fff;
+        }
+
+
+        .project_game_img {
+            width: 300px;
+            height: 250px;
+            border-radius: 10px;
+            border: 1px solid #fff;
+            margin-right: 30px;
+            img {
+                border-radius: 10px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .project_game_text{
+
+            h3{
+                a{
+                    text-decoration: none;
+                    color: #FDB827;
+                    transition: ease-in-out 0.5s;
+                }
+                a:hover {
+                    text-shadow: 0 0 4px rgb(211, 126, 41), 0 0 4px rgb(34, 34, 33);
+                }
+            }
+            p{
+                padding-bottom: 20px;
+            }
+            .made_ico {
+                display: flex;
+                i {
+                    transition: ease-in-out 0.5s;
+                    font-size: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        font-size: 10px;
+                        transition: ease-in-out 0.5s;
+                        opacity: 0;
+                    }
+                }
+                i:not(:last-child) {
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .project_game_button {
+            display: flex;
+            justify-content: flex-start;
+            a {
+                padding: 10px 20px;
+                background-color: #FDB827;
+                border-radius: 5px;
+                text-decoration: none;
+                color: #000;
+                font-weight: bold;
+                transition: ease-in-out 0.5s;
+            }
+
+            a:hover {
+                background-color: #fff;
+            }
+            a:first-child {
+                margin-right: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+@media (max-width: 991px) {
+    
+    p {
+        font-size: 14px;
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .home_info{
+        padding: 200px 0 0 0;
+    }
+    
+    .home_info h1{
+        font-size: calc(2rem + 1.5vw);
+    }
+
+    .home_info h2{
+        font-size: calc(1.5rem + 1.5vw);
+    }
+    
+    .human_img {
+        top: -327px;
+        left: -95px;
+    }
+
+    .about_title h1 {
+        font-size: calc(1.5rem + 1.5vw);
+    }
+
+    .download_cv h2{
+        font-size: calc(1rem + 1.5vw);
+    }
+    .skills_ico{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 782px) {
+    .show_projects .project_game .project_game_info {
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .show_projects .project_game .project_game_img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .show_projects .project_game .project_game_text .made_ico{
+        margin-bottom: 20px;
+    }
+
+    .project_game_text .made_ico .ico_react {
+        color: rgb(23, 231, 231);
+        transform: scale(1.20);
+    }
+
+    .project_game_text .made_ico .ico_css {
+        color: rgb(23, 137, 231);
+        transform: scale(1.20);
+    }
+
+    .project_game_text .made_ico .ico_html {
+        color: rgb(231, 99, 23);
+        transform: scale(1.20);
+    }
+
+    .project_game_text .made_ico .ico_bootstrap {
+        color: rgb(95, 55, 187);
+        transform: scale(1.20);
+    }
+
+    .project_game_text .made_ico .ico_firebase {
+        color: rgb(231, 183, 23);
+        transform: scale(1.20);
+    }
+
+    .show_projects .project_game .project_game_text .made_ico i p {
+        opacity: 1;
+        color: #fff;
+    }
+}
+
+@media (max-width: 665px) {
+    .container {
+        width: 90%;
+    }
+    .about_title{
+        flex-direction: column;
+    }
+    .about_title h1{
+        margin-left: 0;
+    }
+
+    input.burger__check:checked ~ label > span{
+        right: 50px;
+    }
+    .responsive .resp_info{
+        opacity: 1;
+    }
+
+    .skills_ico .ico p{
+        opacity: 1;
+    }
+}
+
+@media (max-width: 500px) {
+
+
+    .responsive .resp_img {
+        margin: 0 auto;
+        width: 300px;
+        height: 230px;
+    }
+    .responsive .resp_img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .responsive:hover > .resp_img{
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 375px){
+
+    .home_info .container_home_button a:first-child{
+        padding: 16px 10px;
+    }
+
+    .home_info .container_home_button a{
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+}

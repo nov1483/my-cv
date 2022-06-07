@@ -1,0 +1,114 @@
+.skills_container {
+    padding: 30px 0;
+    h2{
+        font-size: 41px;
+        margin-bottom: 30px;
+    }
+}
+
+.skills_ico {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    column-gap: 20px;
+    row-gap: 100px;
+    padding: 50px 0;
+
+    .ico{
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 106px;
+        height: 125px;
+        position: relative;
+        transition: ease-in-out 0.5s;
+        p{
+            position: absolute;
+            bottom: -40px;
+            left: 20%;
+            right: 20%;
+            opacity: 0;
+            transition: ease-in-out 0.5s;
+            cursor: default;
+            font-weight: bold;
+        }
+    }
+
+    .ico:hover{
+        transform: scale(1.25);
+    }
+
+    .ico:hover > p {
+        opacity: 1;
+    }
+
+    .ico_css{
+        background-image: url(../../img/css.svg);
+    }
+    .ico_html{
+        background-image: url(../../img/html.svg);
+    }
+    .ico_js{
+        background-image: url(../../img/js.svg);
+        p{
+            bottom: -40px;
+            left: 10%;
+            right: 20%; 
+        }
+    }
+    .ico_bootstrap{
+        background-image: url(../../img/bootstrap.svg);
+        width: 114px;
+    }
+    .ico_react{
+        background-image: url(../../img/react.svg);
+        width: 144px;
+    }
+    .ico_git {
+        background-image: url(../../img/git.png);
+    }
+    .ico_git_hub {
+        background-image: url(../../img/github.png);
+        width: 125px;
+    }
+
+    .ico_npm {
+        background-image: url(../../img/npm.png);
+        width: 125px;
+    }
+    .ico_sass {
+        background-image: url(../../img/sass.png);
+        width: 125px;
+    }
+    .ico_firebase {
+        background-image: url(../../img/firebase1.png);
+        width: 125px;
+    }
+}
+
+.responsive {
+    padding: 20px 0;
+    h3{
+        margin-bottom: 10px;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+
+    .resp_img{
+        transition: ease-in-out 0.5s;
+        margin-bottom: 20px;
+    }
+    .resp_info {
+        opacity: 0;
+        transition: ease-in-out 1s;
+    }
+}
+
+.responsive:hover > .resp_img{
+    transform: scale(1.25);
+}
+
+.responsive:hover > .resp_info{
+    opacity: 1;
+}

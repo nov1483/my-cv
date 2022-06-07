@@ -1,0 +1,63 @@
+.about_title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+
+.about_title h1 {
+  font-size: 45px;
+  line-height: 54px;
+  margin-left: 40px;
+}
+
+.front {
+  color: #FDB827;
+  text-shadow: 0 0 4px #cf9821, 0 0 4px #ce9721;
+}
+
+.about_info {
+  text-align: left;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.about_info p {
+  margin-bottom: 20px;
+}
+
+.about_info p a {
+  color: #FDB827;
+  text-decoration: none;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+}
+
+.about_info p a:hover {
+  text-shadow: 0 0 4px #cf9821, 0 0 4px #ce9721;
+}
+
+.download_cv {
+  text-align: center;
+}
+
+.download_cv h2 {
+  margin-bottom: 35px;
+}
+
+.download_cv a {
+  text-decoration: none;
+  background-color: #FDB827;
+  padding: 15px 20px;
+  color: #000;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+}
+
+.download_cv a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*# sourceMappingURL=about.css.map */

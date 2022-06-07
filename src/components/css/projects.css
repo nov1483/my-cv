@@ -1,0 +1,131 @@
+.projects_container {
+  padding: 50px 0;
+}
+
+.projects_container h2 {
+  margin-bottom: 30px;
+}
+
+.show_projects {
+  margin-bottom: 40px;
+}
+
+.show_projects .project_game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show_projects .project_game .project_game_info {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(58, 57, 57, 0.911) 0%, rgba(36, 23, 23, 0.945) 100%);
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding-right: 20px;
+}
+
+.show_projects .project_game .project_game_info:hover > .project_game_text .made_ico .ico_react {
+  color: #17e7e7;
+  transform: scale(1.2);
+}
+
+.show_projects .project_game .project_game_info:hover > .project_game_text .made_ico .ico_css {
+  color: #1789e7;
+  transform: scale(1.2);
+}
+
+.show_projects .project_game .project_game_info:hover > .project_game_text .made_ico .ico_html {
+  color: #e76317;
+  transform: scale(1.2);
+}
+
+.show_projects .project_game .project_game_info:hover > .project_game_text .made_ico .ico_bootstrap {
+  color: #5f37bb;
+  transform: scale(1.2);
+}
+
+.show_projects .project_game .project_game_info:hover > .project_game_text .made_ico .ico_firebase {
+  color: #e7b717;
+  transform: scale(1.2);
+}
+
+.show_projects .project_game .project_game_info:hover > .project_game_text .made_ico i p {
+  opacity: 1;
+  color: #fff;
+}
+
+.show_projects .project_game .project_game_img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin-right: 30px;
+}
+
+.show_projects .project_game .project_game_img img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.show_projects .project_game .project_game_text h3 a {
+  text-decoration: none;
+  color: #FDB827;
+  transition: ease-in-out 0.5s;
+}
+
+.show_projects .project_game .project_game_text h3 a:hover {
+  text-shadow: 0 0 4px #d37e29, 0 0 4px #222221;
+}
+
+.show_projects .project_game .project_game_text p {
+  padding-bottom: 20px;
+}
+
+.show_projects .project_game .project_game_text .made_ico {
+  display: flex;
+}
+
+.show_projects .project_game .project_game_text .made_ico i {
+  transition: ease-in-out 0.5s;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show_projects .project_game .project_game_text .made_ico i p {
+  font-size: 10px;
+  transition: ease-in-out 0.5s;
+  opacity: 0;
+}
+
+.show_projects .project_game .project_game_text .made_ico i:not(:last-child) {
+  margin-right: 20px;
+}
+
+.show_projects .project_game .project_game_button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.show_projects .project_game .project_game_button a {
+  padding: 10px 20px;
+  background-color: #FDB827;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+}
+
+.show_projects .project_game .project_game_button a:hover {
+  background-color: #fff;
+}
+
+.show_projects .project_game .project_game_button a:first-child {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=projects.css.map */

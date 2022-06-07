@@ -1,0 +1,129 @@
+.skills_container {
+  padding: 30px 0;
+}
+
+.skills_container h2 {
+  font-size: 41px;
+  margin-bottom: 30px;
+}
+
+.skills_ico {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  column-gap: 20px;
+  row-gap: 100px;
+  padding: 50px 0;
+}
+
+.skills_ico .ico {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 106px;
+  height: 125px;
+  position: relative;
+  transition: ease-in-out 0.5s;
+}
+
+.skills_ico .ico p {
+  position: absolute;
+  bottom: -40px;
+  left: 20%;
+  right: 20%;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+  cursor: default;
+  font-weight: bold;
+}
+
+.skills_ico .ico:hover {
+  transform: scale(1.25);
+}
+
+.skills_ico .ico:hover > p {
+  opacity: 1;
+}
+
+.skills_ico .ico_css {
+  background-image: url(../../img/css.svg);
+}
+
+.skills_ico .ico_html {
+  background-image: url(../../img/html.svg);
+}
+
+.skills_ico .ico_js {
+  background-image: url(../../img/js.svg);
+}
+
+.skills_ico .ico_js p {
+  bottom: -40px;
+  left: 10%;
+  right: 20%;
+}
+
+.skills_ico .ico_bootstrap {
+  background-image: url(../../img/bootstrap.svg);
+  width: 114px;
+}
+
+.skills_ico .ico_react {
+  background-image: url(../../img/react.svg);
+  width: 144px;
+}
+
+.skills_ico .ico_git {
+  background-image: url(../../img/git.png);
+}
+
+.skills_ico .ico_git_hub {
+  background-image: url(../../img/github.png);
+  width: 125px;
+}
+
+.skills_ico .ico_npm {
+  background-image: url(../../img/npm.png);
+  width: 125px;
+}
+
+.skills_ico .ico_sass {
+  background-image: url(../../img/sass.png);
+  width: 125px;
+}
+
+.skills_ico .ico_firebase {
+  background-image: url(../../img/firebase1.png);
+  width: 125px;
+}
+
+.responsive {
+  padding: 20px 0;
+}
+
+.responsive h3 {
+  margin-bottom: 10px;
+}
+
+.responsive p {
+  margin-bottom: 10px;
+}
+
+.responsive .resp_img {
+  transition: ease-in-out 0.5s;
+  margin-bottom: 20px;
+}
+
+.responsive .resp_info {
+  opacity: 0;
+  transition: ease-in-out 1s;
+}
+
+.responsive:hover > .resp_img {
+  transform: scale(1.25);
+}
+
+.responsive:hover > .resp_info {
+  opacity: 1;
+}
+/*# sourceMappingURL=skills.css.map */
