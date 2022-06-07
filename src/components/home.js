@@ -14,7 +14,7 @@ function Home() {
                             {/* <img src={HumanImg} alt="home_img"></img> */}
                         </div>
                     </h1>
-                    <h2>I am Anton</h2>
+                    <h2>I am Antoni</h2>
                     <p>I am a young aspiring front-end developer.<br/>
                         My motivation is to be a trained specialist in the field of React, Redux, but not limited to those.<br/> 
                         JavaScript, TypeScript, Hooks, SASS and other libraries and frameworks that are used in front end <br/>

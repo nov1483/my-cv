@@ -9,7 +9,7 @@ function About() {
             <div className="container about_container">
                 <div className="about_title">
                     <img src={aboutImg} alt='aboutImg'></img>
-                    <h1>I’m Anton Navitski A <br/> <span className="front">Frontend</span> developer</h1>
+                    <h1>I’m Antoni Nowicki A <br/> <span className="front">Frontend</span> developer</h1>
                 </div>
                 <div className="about_info">
                     <p>I started getting interested in computers in 2010 when I was 14 years old.
