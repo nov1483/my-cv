@@ -84,6 +84,18 @@
         opacity: 1;
         color: #fff;
     }
+
+    .about_info{
+        margin-bottom: 15px;
+    }
+    
+    .responsive .resp_info{
+        opacity: 1;
+    }
+
+    .skills_ico .ico p{
+        opacity: 1;
+    }
 }
 
 @media (max-width: 665px) {
@@ -100,13 +112,7 @@
     input.burger__check:checked ~ label > span{
         right: 50px;
     }
-    .responsive .resp_info{
-        opacity: 1;
-    }
-
-    .skills_ico .ico p{
-        opacity: 1;
-    }
+    
 }
 
 @media (max-width: 500px) {
