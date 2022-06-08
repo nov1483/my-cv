@@ -7,6 +7,7 @@ import Header from './components/header-nav';
 import Home from './components/home';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import Contacts from './components/contacts';
 import './App.css';
 import './media.css'
 
@@ -30,6 +31,7 @@ function App() {
                 <Route path="/about" element={<About/>} />
                 <Route path="/skills" element={<Skills/>} />
                 <Route path="/projects" element={<Projects/>} />
+                <Route path="/contacts" element={<Contacts/>} />
               </Routes>
             </div>
           </animated.div>))}

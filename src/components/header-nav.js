@@ -20,6 +20,7 @@ function Header () {
                                 <li><Link to='/about' className={location.pathname === '/about' ? "active" : "link_menu"} checked={check} onClick={() => {setCheck(!check); window.scrollTo(0,0);}}>About</Link></li>
                                 <li><Link to='/skills' className={location.pathname === '/skills' ? "active" : "link_menu"} checked={check} onClick={() => {setCheck(!check); window.scrollTo(0,0);}}>Skills</Link></li>
                                 <li><Link to='/projects' className={location.pathname === '/projects' ? "active" : "link_menu"} checked={check} onClick={() => {setCheck(!check); window.scrollTo(0,0);}}>Projects</Link></li>
+                                <li><Link to='/contacts' className={location.pathname === '/contacts' ? "active" : "link_menu"} checked={check} onClick={() => {setCheck(!check); window.scrollTo(0,0);}}>Contacts</Link></li>
                             </ul>
                         </nav>
                                     
@@ -30,6 +31,7 @@ function Header () {
                         <li><Link to='/about' className={location.pathname === '/about' ? "active" : "link_menu"}>About</Link></li>
                         <li><Link to='/skills' className={location.pathname === '/skills' ? "active" : "link_menu"}>Skills</Link></li>
                         <li><Link to='/projects' className={location.pathname === '/projects' ? "active" : "link_menu"}>Projects</Link></li>
+                        <li><Link to='/contacts' className={location.pathname === '/contacts' ? "active" : "link_menu"}>Contacts</Link></li>
                     </ul>
                 </nav>
             </div>

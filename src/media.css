@@ -112,6 +112,10 @@
     input.burger__check:checked ~ label > span{
         right: 50px;
     }
+
+    .contacts_content{
+        flex-direction: column-reverse;
+    }
     
 }
 
