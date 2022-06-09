@@ -60,4 +60,8 @@
   background-color: #fff;
   color: #000;
 }
+
+.download_cv a:not(last-child) {
+  margin-left: 20px;
+}
 /*# sourceMappingURL=about.css.map */

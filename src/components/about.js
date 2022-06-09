@@ -1,6 +1,7 @@
 import React from "react";
-import aboutImg from "../img/Saly-10.png"
-import lesson from "./hw_lesson_1.pdf"
+import aboutImg from "../img/Saly-10.png";
+import cvPl from "./cv_pl.pdf";
+import cvEng from "./cv_eng.pdf";
 import "./css/about.css"
 
 function About() {
@@ -27,7 +28,8 @@ function About() {
             </div>
             <div className="download_cv">
                 <h2>You can also download my CV to get to know me better.</h2>
-                <a href={lesson} download=''>Download CV</a>
+                <a href={cvPl} download=''>Download CV in Polish</a>
+                <a href={cvEng} download=''>Download CV in English</a>
             </div>
         </section>
     )

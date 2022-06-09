@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {ImMail} from "react-icons/im";
 import {BsLinkedin} from "react-icons/bs";
 import {BsTelegram} from "react-icons/bs";
@@ -9,7 +9,7 @@ import "./css/contacts.css";
 
 
 
-const random = ["Ouch!" , "Stop hit me!", "Miss!", "Why?", "Please, stop!", "Again?", "=(", "It's hurt", "Haha, funny"];
+const random = ["Ouch!" , "Stop hit me!", "Miss!", "Why?", "Please, stop!", "Again?", "=(", "It's hurt", "Haha, funny", "My Pixels!"];
 
 const getRandomWords = () => {
         return random[Math.floor(Math.random() * random.length)];
@@ -22,17 +22,11 @@ function Contacts() {
     const handleClick = () => {
         const getRandomText = getRandomWords();
         setText(getRandomText); 
-        
-     
       };
-    
-      setTimeout(() => {
-            handleClick()
-        }, 4500);
-       
-      console.log(text)
-    
-      
+     
+    setTimeout(() => {
+            handleClick(text)
+     }, 4500);
     
     return(
         <section className="contacts">

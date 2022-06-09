@@ -59,4 +59,8 @@
         background-color: #fff;
         color: #000;
     }
+
+    a:not(last-child) {
+        margin-left: 20px;
+    }
 }
