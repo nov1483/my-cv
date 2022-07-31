@@ -13,7 +13,7 @@ const random = ["Ouch!" , "Stop hit me!", "Miss!", "Why?", "Please, stop!", "Aga
 
 const getRandomWords = () => {
         return random[Math.floor(Math.random() * random.length)];
-};
+    };
 
 function Contacts() {
   
@@ -23,10 +23,10 @@ function Contacts() {
         const getRandomText = getRandomWords();
         setText(getRandomText); 
       };
-     
+
     setTimeout(() => {
-            handleClick(text)
-     }, 4500);
+        handleClick(text)
+    }, 4500);
     
     return(
         <section className="contacts">
